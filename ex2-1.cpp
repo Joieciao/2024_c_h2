@@ -2,12 +2,12 @@
 
 int main()
 {
-    printf("Hello World");
+    printf("Hello World\n");
     
-    printf("This sentence will work");
+    printf("This sentence will work\n");
     
-    printf("Hi");
+    printf("Hi\n");
     
-    printf("Happy");
+    printf("Happy\n");
     return 0;
 }
