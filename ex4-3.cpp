@@ -7,7 +7,7 @@ int main()
     printf("please input int x=");
     scanf("%d",&x);
     
-    switch(x % 7){
+    switch(x ){
         case 0:
         printf("sunday \n");
         break;
@@ -28,6 +28,9 @@ int main()
         break;
         case 6:
         printf("saturday \n");
+        break;
+        default:
+        printf("please input 1~7 number \n");
         break;
     }
     
