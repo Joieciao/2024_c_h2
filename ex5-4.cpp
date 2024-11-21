@@ -8,7 +8,7 @@ int main()
     scanf("%d",&x);
     printf("please input int y=");
     scanf("%d",&y);
-    printf("x*x= %d\n",x*x);
-    printf("y*y= %d\n",y*y);
+    printf("x*x+y*y= %d\n",x*x+y*y);
+    
     return 0;
 }
