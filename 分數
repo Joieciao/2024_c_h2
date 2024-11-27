@@ -1,0 +1,27 @@
+
+#include <stdio.h>
+
+int main()
+{
+    int x;
+    int score;
+    x = score;
+    
+    printf("Please input your score=");
+    scanf("%d",&x);
+    
+    if (x >=90 && x <= 100){
+        printf ("A");
+    }else if (x >= 80 && x < 90){
+        printf("B");
+    }else if (x >= 70 && x < 80){
+        printf("C");
+    }else if (x >= 60 && x < 70){
+        printf("D");
+    }else if (x < 60 && x>= 0 ){
+        printf("E");
+    }else{
+        printf("invalid number, please enter a number between 0 and 100 \n");
+    }
+    return 0;
+}
