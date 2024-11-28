@@ -1,0 +1,25 @@
+#include <iostream>
+
+int main()
+{
+    int x,y,r,a;
+    
+    printf("please input int x:");
+    scanf("%d",&x);
+    printf("please input int y:");
+    scanf("%d",&y);
+    printf("please input int r:");
+    scanf("%d",&r);
+    printf("please input int a:");
+    scanf("%d",&a);
+    if(x<y && x<r && x<a){
+        printf("x");
+    }else if(y<r && y<a && y<x){
+        printf("y");
+    }else if(r<a && r<x && r<y){
+        printf("r");
+    }else {
+        printf("a");
+    }
+    return 0;
+}
