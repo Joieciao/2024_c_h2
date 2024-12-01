@@ -1,0 +1,22 @@
+#include <iostream>
+
+int main()
+{
+    int x,y,b;
+    
+    printf("please input your age:");
+    scanf("%d",&x);
+    printf("please input your friend's age:");
+    scanf("%d",&y);
+    
+    b = x;
+    if(x<y){
+        b = y;
+    }
+    else if(y<x){
+        b = x;
+    }
+    
+    printf("The oldest age: %d\n",b);
+    return 0;
+}
