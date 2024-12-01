@@ -2,7 +2,7 @@
 
 int main()
 {
-    int x,y,r,a;
+    int x,y,r,a,b;
     
     printf("please input int x:");
     scanf("%d",&x);
@@ -12,14 +12,20 @@ int main()
     scanf("%d",&r);
     printf("please input int a:");
     scanf("%d",&a);
+    b = x;
     if(x<y && x<r && x<a){
-        printf("x");
-    }else if(y<r && y<a && y<x){
-        printf("y");
-    }else if(r<a && r<x && r<y){
-        printf("r");
-    }else {
-        printf("a");
+        b = x;
     }
+    else if(y<r && y<a && y<x){
+        b = y;
+    }
+    else if(r<a && r<x && r<y){
+        b = r;
+    }
+    else if(a<r && a<x && a<y){
+        b = a;
+    }
+    
+    printf("The smallest number is: %d\n",b);
     return 0;
 }
