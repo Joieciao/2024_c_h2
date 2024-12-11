@@ -1,0 +1,14 @@
+#include <cstdio> // Include the proper header for printf and scanf
+
+int main()
+{
+    int x, y;
+    
+    printf("Please input a number for a rectangle's side: ");
+    scanf("%d", &x);
+    printf("Please input another number for a rectangle's other side: ");
+    scanf("%d", &y);
+    
+    printf("面積 = %d\n", x * y);
+    return 0;
+}
