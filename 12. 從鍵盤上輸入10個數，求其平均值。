@@ -1,0 +1,20 @@
+
+#include <iostream>
+
+int main()
+{
+    int sum = 0, num;
+
+    
+    for (int i = 1; i <= 10; i++) {
+        printf("Please input a number: ");
+        scanf("%d", &num);
+        sum += num;
+    }
+
+    
+    float average = sum / 10.0;  
+    printf("The average: %.2f\n", average); 
+
+    return 0;
+}
